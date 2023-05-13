@@ -7,3 +7,8 @@
   boolean prime=true;
   cout<<"enter any positve number: ";
   cin>>number;
+if(number == 0|| number==1)
+  {
+  prime=false;
+  }
+  for(i=1;i<=number;i++)
